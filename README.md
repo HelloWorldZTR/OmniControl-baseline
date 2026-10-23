@@ -170,6 +170,11 @@ python -m train.train_mdm --save_dir save/my_omnicontrol --dataset humanml --num
 
 ## Evaluate
 
+For the matched frankenmotion nine-task command-following baseline (fixed physical
+commands, prompts, seeds and native analytic joint hints), see
+[the command benchmark guide](docs/command_benchmark.md). It provides separate
+protocol export, resumable generation and upstream-metric scoring entrypoints.
+
 **HumanML3D**
 * Takes about 45 hours (on a single GPU). You can take multi-GPUs to evaluate each setting in parallel to accelerate this process.
 * The output of this script for the pre-trained models is provided in the checkpoints file.

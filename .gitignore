@@ -139,3 +139,7 @@ hint.npy
 t2m
 submit.sh
 scripts_/
+
+# Command benchmark generated motions and reports
+outputs/
+benchmark_sources/
